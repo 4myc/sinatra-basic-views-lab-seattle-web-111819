@@ -39,10 +39,10 @@
 
     <%# Print out all of the wall posts on a given profile page. 
     && store the posts in an array called wall_posts %>
+    <%# Variable called wall_posts and assigning its value to an array of strings.  %>
     <% wall_posts = ["First post!", "Second post!", "Hello, it's your mother. Why don't you ever call me?"] %>
 
-    <%# Variable called wall_posts and assigning its value to an array of strings. 
-    Now we can iterate through our wall_posts array and create a new <li> item for each one. %>
+    <%# Now we can iterate through our wall_posts array and create a new <li> item for each one. %>
     <ul>
     <% wall_posts.each do |post| %>
     <li><%= post %></li>
@@ -56,5 +56,4 @@
     </ul> %>
 
     </body>
-    
 </html>
